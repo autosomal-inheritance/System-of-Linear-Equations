@@ -6,7 +6,7 @@ def correction(x):
 
 # 싱귤러인지 체크
 def check_singular(matrix, sum):
-    if set(matrix) == set([0]) and sum!=0:
+    if set(matrix) == {0} and sum!=0:
         print("error : Singular")
 
         exit(code=0)
